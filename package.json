@@ -1,0 +1,33 @@
+{
+    "name": "pixijs-sdf-particles",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "npm run dev",
+        "build": "npm run lint && tsc && vite build",
+        "lint": "eslint .",
+        "dev": "vite",
+        "prepare": "husky",
+        "lint-staged": "lint-staged"
+    },
+    "dependencies": {
+        "@tweakpane/core": "^2.0.5",
+        "animejs": "^4.3.5",
+        "pixi.js": "^8.8.1",
+        "tweakpane": "^4.0.5"
+    },
+    "devDependencies": {
+        "lint-staged": "^16.2.7",
+        "@eslint/js": "^9.21.0",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.1.2",
+        "eslint-plugin-prettier": "^5.2.6",
+        "husky": "^9.1.7",
+        "prettier": "^3.5.3",
+        "typescript": "~5.7.3",
+        "typescript-eslint": "^8.25.0",
+        "vite": "^6.2.0",
+        "vite-plugin-glsl": "^1.5.5"
+    }
+}
